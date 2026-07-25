@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Taakpay - Transaction Decoder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <img src="logo.png" alt="logo" width="80" />
+      <h2>Transaction Decoder</h2>
+    </div>
+    <textarea id="input" placeholder="Pegue aquí la trama completa..."></textarea>
+    <div class="buttons">
+      <button id="btnDecode">Decode</button>
+      <button id="btnClean">Clean</button>
+    </div>
+    <table id="data">
+      <thead>
+        <tr>
+          <th style="width: 105px;">Field</th>
+          <th style="width: 400px;">Name</th>
+          <th style="width: 70px;">Length</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <footer class="footer">
+    Powered by <strong>Saymyname</strong> / email: <a
+      href="mailto:saymyname.teampro@gmail.com">saymyname.teampro@gmail.com</a>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
