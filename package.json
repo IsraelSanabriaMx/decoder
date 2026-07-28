@@ -1,0 +1,19 @@
+{
+  "name": "decoder",
+  "version": "1.0.0",
+  "description": "This is a simple app to decode a long string in small fields.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsraelSanabriaMx/decoder.git"
+  },
+  "author": "Saymyname",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsraelSanabriaMx/decoder/issues"
+  },
+  "homepage": "https://github.com/IsraelSanabriaMx/decoder#readme"
+}

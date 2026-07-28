@@ -77,5 +77,6 @@ tbody tr:nth-child(even) {
 }
 
 .value {
-  font-family: Consolas;
+  font-family: Consolas, "Courier New", monospace;
+  white-space: pre;
 }
