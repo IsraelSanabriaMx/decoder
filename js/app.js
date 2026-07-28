@@ -28,7 +28,7 @@ function decode() {
       <td>${field.key}</td>
       <td>${field.name}</td>
       <td>${field.length}</td>
-      <td class="value">${value}</td>
+      <td class="value">${field?.value || value}</td>
     `;
 
     tbody.appendChild(tr);
